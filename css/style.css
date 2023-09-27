@@ -1,0 +1,21 @@
+ {
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+ }
+ body{
+     background: #ecf4fb;
+ }
+.gallery {
+    margin: 10px 50px;
+}
+ .gallery img{
+    width:230px;
+    padding: 5px;
+    filter: grayscale(50%)
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
